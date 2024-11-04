@@ -56,3 +56,15 @@ def check_password_strength(password):
         strength = "Very Strong"
     
     return strength, feedback
+
+
+
+
+# Test the checker with an example
+password = input("Enter your password: ")
+strength, feedback = check_password_strength(password)
+
+print(f"Password Strength: {strength}")
+print("Feedback:")
+for line in feedback:
+    print(f"- {line}")
