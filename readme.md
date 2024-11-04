@@ -30,11 +30,3 @@ The password strength is determined based on:
 ### Prerequisites
 
 - Python 3.x
-
-### Installation
-
-Clone the repository or download the script directly to your local machine.
-
-```bash
-git clone https://github.com/your-username/password-strength-checker.git
-cd password-strength-checker
